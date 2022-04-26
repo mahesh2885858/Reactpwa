@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.App-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(166, 233, 115, 0.837);
+}
+.nav-container {
+  width: 100%;
+}
+.main-app {
+  width: 100%;
+  height: calc(100vh - 35px);
+}

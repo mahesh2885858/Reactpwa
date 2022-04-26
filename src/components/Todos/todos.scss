@@ -1,0 +1,45 @@
+.todo-container {
+  height: 100%;
+  width: 100%;
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  .todo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    background: rgb(231, 246, 229);
+    .icon {
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: all 0.3s ease-in;
+    }
+    .edit {
+      color: rgb(37, 37, 230);
+    }
+    .delete {
+      color: rgba(247, 39, 39, 0.791);
+    }
+  }
+}
+@media screen and(min-width:912px) {
+  .todo-container {
+    height: unset;
+    padding-top: 0.5em;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .todo {
+      width: 30%;
+      .icon:hover {
+        transform: scale(1.2);
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+      }
+    }
+  }
+}
