@@ -18,7 +18,7 @@ const NavBar = () => {
         <div className="nav-links-box">
           <Link to={`addtodo`}>Add Todo</Link>
           <Link to={`about`}>About Author</Link>
-          <Link to={`about`}>Test</Link>
+          <Link to={`testuploadimage`}>Test</Link>
           <Link to={`about`}>Test Images</Link>
         </div>
       </div>

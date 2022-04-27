@@ -1,0 +1,14 @@
+.input-image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:red solid;
+    input{
+        border: black solid;
+    }
+    .image{
+        width: 200px;
+    }
+}

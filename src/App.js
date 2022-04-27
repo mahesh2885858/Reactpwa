@@ -14,6 +14,7 @@ import {
 import { fireBaseApp } from "./firebase/firebaseConfigue";
 import AddTodo from "./screens/Addtodo/AddTodo";
 import { useEffect, useState } from "react";
+import Test from "./screens/Test/Test";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -116,6 +117,7 @@ function App() {
               />
             }
           />
+          <Route path="/testuploadimage" element={<Test />} />
         </Routes>
       </div>
     </div>
